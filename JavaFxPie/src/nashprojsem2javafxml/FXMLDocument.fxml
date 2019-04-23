@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="467.0" prefWidth="527.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxpie.FXMLDocumentController">
+   <children>
+      <TabPane fx:id="tPane" layoutX="8.0" layoutY="8.0" prefHeight="452.0" prefWidth="510.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="tKenya" text="kenya" />
+          <Tab fx:id="tNigeria" text="nigeria" />
+            <Tab fx:id="tRwan" text="rwanda" />
+            <Tab fx:id="tSa" text="southafrica" />
+            <Tab fx:id="tUga" text="uganda" />
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
